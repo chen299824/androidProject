@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 将对应属性抽取到样式当中去 -->
+    <TextView
+        android:text="功能列表"
+        style="@style/TitleStyle"/>
+
+    <!-- 想要实现跑马灯效果，需实现下面三条属性 -->
+    <!--    1.android:ellipsize="end" 添加省略点的所在位置 -->
+    <!--    2.android:focus="true" 获取焦点 -->
+    <!--    3.android:focusableInTouchMode="true" 触摸时仍然获取焦点 -->
+    <com.example.testdemo_3.view.FocusTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="欢迎使用本应用aaaa"
+        android:textColor="#000"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"/>
+    <!-- android:numColumns 指定列数 -->
+    <GridView
+        android:id="@+id/gv_home"
+        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
