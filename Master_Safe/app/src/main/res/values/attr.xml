@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItemView">
+        <!-- 标题内容 -->
+        <attr name="destitle" format="string"/>
+        <!-- 单选框关闭时的文本内容 -->
+        <attr name="desoff" format="string"/>
+        <!-- 单选框开启时的文本内容 -->
+        <attr name="deson" format="string"/>
+    </declare-styleable>
+</resources>

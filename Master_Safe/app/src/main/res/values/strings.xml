@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TestDemo_3</string>
     <string name="hello">版本名称</string>
+    <string name="settingTitle">设置中心</string>
 </resources>
