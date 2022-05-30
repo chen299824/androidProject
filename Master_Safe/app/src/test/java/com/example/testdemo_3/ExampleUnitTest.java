@@ -1,4 +1,4 @@
-package com.cyz.mobilesafe_master;
+package com.example.testdemo_3;
 
 import org.junit.Test;
 

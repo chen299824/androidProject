@@ -1,4 +1,4 @@
-package com.cyz.mobilesafe_master;
+package com.example.testdemo_3;
 
 import android.content.Context;
 
@@ -21,7 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-
-        assertEquals("com.cyz.mobilesafe_master", appContext.getPackageName());
+        assertEquals("com.example.testdemo_3", appContext.getPackageName());
     }
 }
